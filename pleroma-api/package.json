@@ -1,0 +1,19 @@
+{
+  "name": "pleroma-api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "cd pleroma-api && npm install && npm run build",
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "4.44.2",
+    "webpack-cli": "^4.2.0"
+  }
+}

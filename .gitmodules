@@ -1,0 +1,3 @@
+[submodule "pleroma-api/pleroma-api"]
+	path = pleroma-api/pleroma-api
+	url = https://git.pleroma.social/pleroma/pleroma-api.git
