@@ -1,5 +1,5 @@
 {
-  "name": "megalodon",
+  "name": "corekey",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "build": "tsc -p ./"
   },
   "dependencies": {
-    "megalodon": "^3.3.2"
+    "corekey": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^4.1.3"
