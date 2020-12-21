@@ -26,7 +26,7 @@ const peertube = new Peertube({
 
 const main = async () => {
   const videos = await peertube.getVideos();
-  console.log(videos);
+  videos.data.map((v) => console.log(v));
 };
 
 main();
