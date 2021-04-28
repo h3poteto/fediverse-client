@@ -19,10 +19,10 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-axios@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
-  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
@@ -43,7 +43,7 @@ capital-case@^1.0.4:
     tslib "^2.0.3"
     upper-case-first "^2.0.2"
 
-change-case@^4.1.1:
+change-case@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/change-case/-/change-case-4.1.2.tgz#fedfc5f136045e2398c0410ee441f95704641e12"
   integrity sha512-bSxY2ws9OtviILG1EiY5K7NNxkqg/JnRnFxLtKQ96JaviiIxi7djMrSd0ECT9AC+lttClmYwKw53BWpOMblo7A==
@@ -143,20 +143,20 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-masto@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/masto/-/masto-3.6.4.tgz#9d43baf238a17180487b49ff04c5dadc7465fecd"
-  integrity sha512-MTgI5XTmFpEIcuGhP0DwfDsqs+cUm2ycUng1Yb5ZLOjL0EM5jyl27q7vcMIQ7ELMv8M5sfMupRBSLVQqVpbt2g==
+masto@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/masto/-/masto-4.0.2.tgz#33950d5929005c3ee79ecb0989940d13fb981265"
+  integrity sha512-Ut975UdbsI3QrhWglP4YJtuwA7L4xANtjJKQI2C1BzDkovNKHNsHMrEuMrGQ9DEJQgYznZprHt1GxsXVMQAu5w==
   dependencies:
     "@types/ws" "^7.4.0"
-    axios "^0.21.0"
-    change-case "^4.1.1"
+    axios "^0.21.1"
+    change-case "^4.1.2"
     eventemitter3 "^4.0.7"
     isomorphic-form-data "^2.0.0"
     isomorphic-ws "^4.0.1"
     normalize-url "^5.3.0"
-    semver "^7.3.4"
-    ws "^7.4.0"
+    semver "^7.3.5"
+    ws "^7.4.4"
 
 mime-db@1.44.0:
   version "1.44.0"
@@ -207,10 +207,10 @@ path-case@^3.0.4:
     dot-case "^3.0.4"
     tslib "^2.0.3"
 
-semver@^7.3.4:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
-  integrity sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==
+semver@^7.3.5:
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
+  integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
   dependencies:
     lru-cache "^6.0.0"
 
@@ -250,10 +250,10 @@ upper-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
-ws@^7.4.0:
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.1.tgz#a333be02696bd0e54cea0434e21dcc8a9ac294bb"
-  integrity sha512-pTsP8UAfhy3sk1lSk/O/s4tjD0CRwvMnzvwr4OKGX7ZvqZtUyx4KIJB5JWbkykPoc55tixMGgTNoh3k4FkNGFQ==
+ws@^7.4.4:
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
+  integrity sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
 
 yallist@^4.0.0:
   version "4.0.0"

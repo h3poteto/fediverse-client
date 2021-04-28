@@ -1,13 +1,12 @@
-const masto = require("./node_modules/masto");
+const { login } = require("masto");
 
 const main = async () => {
-  const client = await masto.Masto.login({
+  const client = await login({
     uri: "https://fedibird.com",
     accessToken: process.env.MASTODON_ACCESS_TOKEN,
   });
 
-  const timeline = await client.fetchHomeTimeline();
-  for await (const statuses of timeline) {
+  for await (const statuses of client.timelines.home) {
     Object.keys(statuses).forEach((key) => {
       console.log(statuses[key].id);
     });
